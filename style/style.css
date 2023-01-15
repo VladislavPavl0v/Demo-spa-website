@@ -1,0 +1,261 @@
+.body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(171, 228, 245);
+    background: url(https://cdn-p.cian.site/images/98/900/811/po-ul-shkolnaya-sankt-peterburg-jk-1180098971-6.jpg);
+    background-size: cover;
+}
+
+.body1 {
+    margin: 0;
+    padding: 0;
+    background: url(https://images.pexels.com/photos/7195796/pexels-photo-7195796.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+}
+
+.body2 {
+    margin: 0;
+    padding: 0;
+    background: url(https://images.pexels.com/photos/7195796/pexels-photo-7195796.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    background-color: bisque;
+    background: url(https://images.pexels.com/photos/7195796/pexels-photo-7195796.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) no-repeat center/80%;
+    background-size: cover;
+}
+
+h1 {
+    position: absolute;
+    left: 42%;
+    top: 100px;
+    color: rgb(18, 200, 206);
+    font-size: 4rem;
+    font-family: 'Amatic SC', cursive;
+    text-shadow: 1px 1px 1px #000;
+    margin-bottom: 300px;
+}
+
+.h1 {
+    position: absolute;
+    left: 42%;
+    top: 10px;
+    color: rgb(18, 200, 206);
+    font-size: 4rem;
+    font-family: 'Amatic SC', cursive;
+    text-shadow: 1px 1px 1px #000;
+    margin-bottom: 300px;
+}
+
+.h3 {
+    position: absolute;
+    left: 42%;
+    top: 190px;
+    color: rgb(18, 200, 206);
+    font-size: 4rem;
+    font-family: 'Amatic SC', cursive;
+    text-shadow: 1px 1px 1px #000;
+    margin-bottom: 300px;
+}
+
+
+.h2::before {
+    content: "Специальная скидка! ";
+    font-style: italic;
+    font-size: small;
+    color: red;
+}
+
+.div {
+    position: absolute;
+    width: auto;
+    top: 120px;
+    left: 42%;
+    align-items: center;
+    justify-content: center;
+}
+
+.div1 {
+    position: absolute;
+    height: 0px;
+    width: 400px;
+    top: 250px;
+    left: 42%;
+}
+
+.div2 {
+    position: absolute;
+    height: 0px;
+    width: 400px;
+    top: 300px;
+    left: 42%;
+}
+
+.btn {
+    position: absolute;
+    left: 0%;
+    top: 230px;
+	display: inline-block;	
+	box-sizing: border-box;
+	padding: 0 20px;
+	margin: 0 15px 15px 0;
+	outline: none;
+	border: none;  
+	border-radius: 6px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 17px;
+	font-weight: 600;
+	text-decoration: none;
+	color: #385898;
+	background-color: #e7f3ff;
+	cursor: pointer;
+	user-select: none;
+	appearance: none;
+	touch-action: manipulation;
+}
+
+.btn1 {
+    position: absolute;
+    left: 50%;
+    top: 230px;
+	display: inline-block;	
+	box-sizing: border-box;
+	padding: 0 20px;
+	margin: 0 15px 15px 0;
+	outline: none;
+	border: none;  
+	border-radius: 6px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 17px;
+	font-weight: 600;
+	text-decoration: none;
+	color: #385898;
+	background-color: #e7f3ff;
+	cursor: pointer;
+	user-select: none;
+	appearance: none;
+	touch-action: manipulation;
+}
+
+.btn:focus-visible {
+	box-shadow: 0 0 0 2px rgb(255, 255, 255);
+}
+.btn:hover {
+	background-color: #DBE7F2;
+}
+.btn:active {
+	transform: scale(0.96);
+}
+.btn:disabled {
+	pointer-events: none;
+	opacity: 0.65;
+}
+
+.p {
+    color: rgb(18, 200, 206);
+    height: 30px;
+    font-size: 35px;
+    font-family: 'Amatic SC', cursive;
+    text-shadow: 1px 1px 1px #000;
+}
+
+.p1 {
+    text-decoration: line-through;
+}
+
+.p2 {
+    color: red;
+}
+
+.p3 {
+    position: absolute;
+    width: 500px;
+    left: 60%;
+    top: 190px;
+    color: rgb(18, 200, 206);
+    font-size: 35px;
+    font-family: 'Amatic SC', cursive;
+    text-shadow: 1px 1px 1px #000;
+}
+
+.msg {
+    position: absolute;
+    top: 300px;
+    border: 2px solid black;
+    border-radius: 3px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    color: red;
+}
+
+.a1 {
+    left: 110%;
+    color: rgb(18, 200, 206);
+}
+
+article {
+    width: 768px;
+    margin: 0 auto 32px;
+    padding: 6px 15px;
+    border-bottom: 1px solid gray;
+}
+
+article a {
+    color: black;
+    text-decoration: none;
+}
+
+article a:hover {
+    color: rgb(0, 157, 255);
+}
+
+article h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 5px;
+}
+
+.article-meta {
+    color: rgb(0, 0, 0);
+    margin-bottom: 5px;
+}
+
+article img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+footer {
+  padding-top: 20px;
+  padding-bottom: 60px;
+  text-align: center;  
+}
+
+footer .links {
+    margin-bottom: 50px;
+}
+
+footer .links > a {
+    color: rgb(0, 0, 0);
+    padding: 0 25px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+footer .links > a:hover {
+    color: rgb(0, 157, 255);
+}
+
+.copyright {
+    color: rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+}
